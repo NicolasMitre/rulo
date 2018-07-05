@@ -45,7 +45,7 @@ var gustosDeHelado = [
 	for(var i = 0; i < gustosDeHelado.length; i++)
 	{
 		var nuevoLi = document.createElement("option");
-		nuevoLi.setAttibute("value", gustosDeHelado[i].nombre);
+		nuevoLi.setAttribute("value", gustosDeHelado[i].nombre);
 		nuevoLi.textContent = gustosDeHelado[i].nombre;
 		list.appendChild(nuevoLi);
 	}
