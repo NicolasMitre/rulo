@@ -21,23 +21,23 @@ document.addEventListener('DOMContentLoaded', function(event) //carga el documen
 	var gustosDeHelado = [
 	{ 
 		nombre: "americana",
-		stock: 20
+		stock: 7
 	},
 	{ 
 		nombre: "frutilla",
-		stock: 15
+		stock: 1
 	},
 	{ 
 		nombre: "chocolate",
-		stock: 10
-	},
-	{ 
-		nombre: "banana split",
 		stock: 5
 	},
 	{ 
+		nombre: "banana split",
+		stock: 3
+	},
+	{ 
 		nombre: "kinotos al whisky",
-		stock: 1
+		stock: 0
 	}];
 
 	var list = document.getElementById("listaDeGustos");
