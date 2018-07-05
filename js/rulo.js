@@ -16,9 +16,9 @@ function cambia3()
 	document.getElementById('google').src=url;
 }
 
-// documento pedir
-
-var gustosDeHelado = [
+document.addEventListener('DOMContentLoaded', function(event) //carga el documento y ejecuta algunas funciones
+{
+	var gustosDeHelado = [
 	{ 
 		nombre: "americana",
 		stock: 20
@@ -49,3 +49,5 @@ var gustosDeHelado = [
 		nuevoLi.textContent = gustosDeHelado[i].nombre;
 		list.appendChild(nuevoLi);
 	}
+
+});
