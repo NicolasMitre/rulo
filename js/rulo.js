@@ -54,6 +54,5 @@ document.addEventListener('DOMContentLoaded', function(event) //carga el documen
 
 	function myFunction() {
     var x = document.getElementById("listaDeGustos").value;
-    alert(x);
 	}
 
